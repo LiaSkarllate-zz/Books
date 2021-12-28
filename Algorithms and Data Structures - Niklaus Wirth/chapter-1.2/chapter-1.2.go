@@ -8,6 +8,8 @@ func main() {
         //Assignment:
     var number = 80;
 
-    //Comparison:
+    //Logic:
+        //Comparison:
     fmt.Println(number != number);
 }
+
