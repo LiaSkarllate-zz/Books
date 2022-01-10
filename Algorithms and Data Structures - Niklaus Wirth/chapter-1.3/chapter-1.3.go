@@ -3,32 +3,36 @@ package main
 //Imports:
 import "fmt"
 
+//Global definitions:
+type currency string;
+type weekday int;
+
+const(
+    Real currency = "Real"
+    Pound = "Pound"
+    Euro = "Euro"
+)
+
+const(
+    Monday weekday = iota
+    Tuesday
+    Wednesday
+    Thursday
+    Friday
+    Saturday
+    Sunday
+)
+
+//Main function:
 func main() {
-    //Variables:
-    type currency string;
-    type weekday int;
-
-    const(
-        Real currency = "Real"
-        Pound = "Pound"
-        Euro = "Euro"
-    )
-
-    const(
-        Monday weekday = iota
-        Tuesday = 2
-        Wednesday = 3
-        Thursday = 4
-        Friday = 5
-    )
-
     //Logic:
-    var a currency;
-    var b weekday;
+    var a currency
+    var b weekday
 
-    a = Pound;
-    b = Tuesday;
+    a = Pound
+    b = Tuesday
 
-    fmt.Println(a);
-    fmt.Println(b);
+    fmt.Println(a)
+    fmt.Println(b)
+    fmt.Println(b + 1)
 }

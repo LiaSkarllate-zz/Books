@@ -6,10 +6,11 @@ import "fmt"
 func main() {
     //Variables:
         //Assignment:
-    var number = 80;
+    var number = 80
 
     //Logic:
-        //Comparison:
-    fmt.Println(number != number);
+        //Comparisons:
+    fmt.Println(number != number)
+    fmt.Println(number == 90)
 }
 
