@@ -11,8 +11,8 @@ func main() {
     y := 8
     z := 10
 
-    letter0 := 'a'          //This is micro sign.
-    var letter1 byte = 'B'  //This is a macro sign.
+    letter0 := 'a'          //This is micro declaration and initialization.
+    var letter1 byte = 'B'  //This is a macro declaration and initialization.
 
     //Logic:
     logic0 := (x == y)
